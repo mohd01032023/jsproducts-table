@@ -1,0 +1,45 @@
+#getinput {
+    margin: 75px;
+}
+
+#getinput__id {
+    margin: 0px 0px 5px 50px;
+    padding: 5px;
+}
+
+#getinput__name {
+    margin: 0px 0px 5px 28px;
+    padding: 5px;
+}
+
+#getinput__price {
+    margin: 0px 0px 5px 28px;
+    padding: 5px;
+}
+
+button {
+    margin: 0px 0px 0px 70px;
+    background-color: #fff;
+    padding: 15px 70px 15px 40px;
+    border: 2px solid #000;
+}
+
+button:hover {
+    background-color: maroon;
+}
+
+#output {
+    margin: 0px 0px 0px 70px;
+}
+
+#output__err {
+    color: red;
+}
+
+#output th {
+    padding: 0px 130px 0px 0px;
+}
+
+#output td {
+    padding: 0px 130px 0px 0px;
+}

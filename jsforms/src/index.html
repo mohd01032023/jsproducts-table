@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/main.js"></script>
+</head>
+<body>
+    <!--getting inputs-->
+    <div id="getinput">
+        Product id
+        <input type="number" id="getinput__id"><br>
+        Product name
+        <input type="text" id="getinput__name"><br>
+        Product Price
+        <input type="number" id="getinput__price"> <br>
+    </div>
+
+    <!--button-->
+    <button type="button" onclick="addProd()">ADD PRODUCT</button>
+
+    <!-- output section -->
+    <div id="output">
+        <p id="output__err"></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th> <th>Product name</th> <th>Product Price</th>
+                </tr>
+            </thead>
+            <tbody id="output__tables">
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
