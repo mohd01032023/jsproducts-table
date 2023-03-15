@@ -10,10 +10,13 @@ function addProd(){
     // Error checking
     let error = document.getElementById("output__err");
     if(ID=="" || name=="" || price==""){
-        error.innerHTML = "Some feilds are empty"; return;
+        error.innerHTML = "Some feilds are empty"; 
     }
     else if(prodID.has(ID)){
-        error.innerHTML = "Product ID given is already in use"; return;
+        error.innerHTML = "Product ID given is already in use"; 
+    }
+    else if(price <= 0){
+        error.innerHTML = "Price should be above zero";
     }
     else{ // Data is valid
         products.push([ID, name, price]); prodID.add(ID);
